@@ -22,6 +22,7 @@
     <script src="js/index.js"></script>
 	<script src='css/bootstrap/js/bootstrap.min.js'></script>
 	
+	
     <style>
         #status {
             display: none;
@@ -152,7 +153,7 @@
                         <div class="contact-page-subtitle hidden-lg hidden-md hidden-sm"></div>
                         <h3 class="contact-page-subtitle">Online contact form</h3>
 
-                        <form name="sentMessage" action="http://formspree.io/dev@adibarbu.ro" id="contactForm" method="POST" novalidate>
+                        <form name="sentMessage" action="http://formspree.io/dev@adibarbu.ro" id="contactForm" method="POST">
                             <div class="control-group form-group">
                                 <div class="controls">
                                     <label class="contact-form-text">Name(required)</label>
@@ -171,7 +172,7 @@
 
                             <div class="control-group form-group">
                                 <div class="controls">
-                                    <label class="contact-form-text">Subject</label>
+                                    <label class="contact-form-text">Subject (required)</label>
                                     <input type="text" class="form-control" id="subject" name="_subject" required data-validation-required-message="Please enter the subject of the message." placeholder="">
                                     <p class="help-block"></p>
                                 </div>
