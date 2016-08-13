@@ -24,7 +24,17 @@
 
     <script src='js/jquery.min.js'></script>
     <script src='css/bootstrap/js/bootstrap.min.js'></script>
+    <script src='css/bootstrap/js/xss.js'></script>
     <script src="js/photo-gallery.js"></script>
+
+<script>
+
+var xssFilter = require('x-xss-protection')
+app.use(xssFilter())
+app.use(xssFilter({ setOnOldIE: true }))
+
+	
+</script>
 
     <script src="js/index.js"></script>
 	
