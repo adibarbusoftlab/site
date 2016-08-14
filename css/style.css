@@ -1534,6 +1534,8 @@ font-size: 24px!important;
 .carousel-indicators > li {
   border: 1px solid #000;
   border-radius:0;
+  height: 18px!important;
+width: 18px!important;
 }
 .carousel-indicators > .active{
   background: #ddd;
