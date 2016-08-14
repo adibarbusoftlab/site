@@ -15,18 +15,26 @@
       <script src="js/html5shiv.min.js"></script>
     <![endif]-->
 
+
     <link rel="stylesheet" href="css/bootstrap/css/bootstrap.css">
-
-
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/animate.min.css">
+	
+	
+	<script src='js/loadCSS.js'></script>
+	<noscript><link rel="stylesheet" href="css/animate.min.css"></noscript>
+	
+	<script id="loadcss">
+// load a CSS file just before the script element containing this code
+loadCSS( "css/animate.min.css", document.getElementById("loadcss") );
+</script>
+    
 
-    <script async src='js/jquery.min.js'></script>
-    <script async src='css/bootstrap/js/bootstrap.min.js'></script>
-    <script async src="js/photo-gallery.js"></script>
-
-    <script async src="js/index.js"></script>
+	
+    <script src='js/jquery.min.js' async></script>
+    <script  src='css/bootstrap/js/bootstrap.min.js' async></script>
+    <script  src="js/photo-gallery.js" async></script>
+    <script src="js/index.js" async></script>
 	
     <meta property="og:title" content="softlab.adibarbu.ro - Free and useful programs and tools." />
     <meta property="og:type" content="website" />
