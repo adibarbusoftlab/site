@@ -1532,10 +1532,11 @@ font-size: 24px!important;
 
 
 .carousel-indicators > li {
-  border: 1px solid #000;
-  border-radius:0;
-  height: 18px!important;
-width: 18px!important;
+	border: 1px solid #000;
+	border-radius:0;
+	height: 15px!important;
+	width: 15px!important;
+	margin-right:1px!important;
 }
 .carousel-indicators > .active{
   background: #ddd;
