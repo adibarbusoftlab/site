@@ -123,7 +123,7 @@ text-align:left;
     margin-bottom: 5px;
     list-style: none;
     background-color: #f6f6f6;
-	font-size:13px;
+	font-size:15px;
 }
 
 #content-header {
@@ -592,7 +592,7 @@ margin-bottom:30px;
 
 .software-quick-download-button>a
 {
-margin-right:10px;
+margin:5px;
 }
 
 .clearboth{
@@ -985,14 +985,14 @@ color:rgb(0, 109, 0);
 @media screen and (min-width: 980px) /* Desktop */ {
 
 #share-social {
-    font-size: 30px;
+    font-size: 35px;
 }
 
 }/* END Desktop */
 
 @media screen  and (max-width: 979px) /* Tablet */ {
 #share-social{
-    font-size: 25px;
+    font-size: 30px;
 }
 
 
@@ -1011,7 +1011,7 @@ padding-bottom:20px;
 @media screen and (max-width: 500px) /* Mobile */ {
 
 #share-social{
-    font-size: 20px;
+    font-size: 25px;
 }
 
 
