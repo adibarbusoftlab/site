@@ -141,7 +141,7 @@
                         </p>
 
                         <p><i class="fa fa-info-circle" aria-hidden="true"></i>
-                            <abbr title="Website">Blog</abbr>:<a href="http://www.adibarbu.ro"> www.adibarbu.ro</a>  <span class="italic-style">(Romanian)</span>
+                            <abbr title="Website">Blog</abbr>:<a href="http://www.adibarbu.ro" onClick="ga('send', 'event', 'ExternalLinks', 'ContactPage', 'BlogLink(www.adibarbu.ro)');"> www.adibarbu.ro</a>  <span class="italic-style">(Romanian)</span>
                             <br/>
                         </p>
                         <p><i class="fa fa-envelope-o"></i> 
@@ -162,7 +162,7 @@
                         <div class="contact-page-subtitle hidden-lg hidden-md hidden-sm"></div>
                         <h3 class="contact-page-subtitle">Online contact form</h3>
 
-                        <form name="sentMessage" action="https://formspree.io/dev@adibarbu.ro" id="contactForm" method="POST">
+                        <form name="sentMessage" action="https://formspree.io/dev@adibarbu.ro" id="contactForm" method="POST" onsubmit="ga('send', 'event', 'FormSubmissions', 'ContactPage', 'MessageSubmitted');">
                             <div class="control-group form-group">
                                 <div class="controls">
                                     <label class="contact-form-text">Name(required)</label>
