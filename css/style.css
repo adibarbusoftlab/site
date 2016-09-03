@@ -294,7 +294,7 @@ float:left;
 	overflow-x:auto;
 }
 #responsiveTable{
-width: 100%;
+max-width: 100%;
 }
 
 .tab-content-page{
