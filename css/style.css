@@ -291,7 +291,12 @@ float:left;
     border-bottom: 1px solid #ddd;
     border-radius: 0px 0px 2px 2px;
     padding: 10px;
+	overflow-x:auto;
 }
+#responsiveTable{
+width: 100%;
+}
+
 .tab-content-page{
    margin-top:25px;
 }
