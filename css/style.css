@@ -65,7 +65,7 @@ background:#42a2ce;
     margin-bottom: 25px;
     background: #ffffff;
 	
-font-family: Open-Sans, Roboto, Verdana, "Helvetica Neue", Helvetica, sans-serif;
+font-family: "Open-Sans", "Roboto", "Verdana", "Helvetica Neue", Helvetica, sans-serif;
    font-size:16px;
 	color:#444;
 	text-align:justify;
@@ -458,6 +458,7 @@ a:-webkit-any-link {
 #nav {
   position: absolute;
   right: 5px;
+  font-family: Roboto;
 }
 #nav ul li {
   float: left;
@@ -468,7 +469,7 @@ a:-webkit-any-link {
   text-decoration: none;
   padding: 0 10px;
 }
-@media (max-width: 635px) {
+@media (max-width: 750px) {
   #header .container {
     width: 100%;
   }
@@ -522,6 +523,7 @@ a:-webkit-any-link {
     .navbar-brand 
   {
  padding-left:0px;
+ font-family: Roboto;
   }
   
 
@@ -806,6 +808,10 @@ text-align:center;
     margin: 0px;
     padding: 0px 0px 10px 0px;
     }
+
+    .featurette-heading-title a{
+       color: #D3C64C!important;
+    }
 	
 	.featurette-heading-description a{
 font-style: italic;
@@ -984,20 +990,30 @@ color:rgb(0, 109, 0);
 	  
 /* END image gallery */  
 
+.site-lang-pages
+{
+  font-family: "Arial";
+  padding-left:5px;
+}
 
+.site-lang-index{
+font-family: "Arial";
+font-size:23px;
+text-align:center;
+}
 
 /* GENERAL RESPONSIVE */  
 @media screen and (min-width: 980px) /* Desktop */ {
 
 #share-social {
-    font-size: 35px;
+    font-size: 28px;
 }
 
 }/* END Desktop */
 
 @media screen  and (max-width: 979px) /* Tablet */ {
 #share-social{
-    font-size: 30px;
+    font-size: 25px;
 }
 
 
@@ -1016,7 +1032,7 @@ padding-bottom:20px;
 @media screen and (max-width: 500px) /* Mobile */ {
 
 #share-social{
-    font-size: 25px;
+    font-size: 23px;
 }
 
 

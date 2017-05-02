@@ -25,7 +25,7 @@
     <meta property="og:type" content="article" />
     <meta property="og:url" content="http://softlab.adibarbu.ro/virtual-wifi/userguide.html" />
     <meta property="og:image" content="http://softlab.adibarbu.ro/virtual-wifi/images/virtual-wifi.png" />
-    <meta property="og:description" content="Virtual WiFi is a simple program but has some options that are important to be understood before being applied. Read the short documentation of the program." />
+    <meta property="og:description" content="Read a short documentation of how to use the virtual Wi-Fi router." />
 
 </head>
 
@@ -102,7 +102,7 @@
 						
 						<div >
                         <h1 id="app-name">
-                           <a href="index.html">Virtual WiFi 2.9.5</a>
+                           <a href="index.html">Virtual WiFi 3.1.9</a>
                         </h1>
 
                         <h2 id="app-description">Virtual WiFi Router for Windows</h2>
@@ -123,7 +123,7 @@
                         Checked with Bitdefender 
 						<i class="tip glyphicon glyphicon-question-sign">
 						<span><b>The program was checked for malware with Bitdefender and is clean. See a detailed security report using the link below.</b></span></i>
-                        <br/>See <a href="https://www.virustotal.com/ro/file/1c7b169e15b2462e37210a02c08ff1f7eb8ce8546bed924885339db63dbf98cf/analysis/1471111818/" target="_blank">VirusTotal security report</a>.
+                        <br/>See <a href="https://www.virustotal.com/en/file/9c7e1591a61795477e827ff5adba89cc26a4b257eda99c6f83bf83bb1738c474/analysis/1493489910/" target="_blank">VirusTotal security report</a>.
                     </div>
 
                     <div id="app-download" class="col-lg-4 col-md-4 col-sm-4 hidden-xs">
@@ -160,40 +160,65 @@
 
                             <p>
                                 To create a Wi-Fi network hosted by the wireless adapter card of your computer you must first enter a hotspot name and a password, and then choose the desired type of hotspot by selecting either the name of the Internet connection you want to share or
-                                the option 'Without Internet connection (ad-hoc)'.
+                                the option 'Without Internet connection (ad-hoc) or, if there are multiple connections available then you can select an auxiliary option named 'Best Internet connection' - which detects and automatically select the best Internet connection available.
+                                </p>
+                                <p>
+                                For a better security enter a strong password (capital letters, little letters and digits in a succession without meaning) or choose to generate a strong password by clicking on the lock icon.
                             </p>
-                            <p>
-                                If there are multiple connections available then an auxiliary option named 'Detect the fastest Internet connection' will be shown in the list with connections - which detects and automatically select the best Internet connection available. To start the Wi-Fi hotspot with the
+                                <p>
+                                To view the password enetered or generated press the eye icon, to refresh the list with connection available to be shared press the refresh button, and finally, to start the Wi-Fi hotspot with the
                                 specified characteristics press the 'Start Wi-Fi' button.</p>
-                            <img class="img-responsive" src="images/virtual-wifi-wireless-hotspots-creator.png" title="Virtual WiFi Configuration Tab" alt="Enter a name and a password, choose a connection or option for sharing Internet Access and press start Wi-Fi.">
+                            <img class="img-responsive" src="images/start-virtual-wifi-router-wireless-hotspot.png" title="Virtual WiFi Configuration Tab" alt="Enter a name and a password, choose a connection or option for sharing Internet Access and press start Wi-Fi.">
                             <p>
-                                Once the hotspot is active, you can stop it by pressing 'Stop Wi-Fi' button, see some internal details about the hosted wireless network by pressing the button 'Details' or see a list with the devices connected to the created hotspot in the 'Connected
+                                Once the hotspot is active, you can stop it by pressing 'Stop Wi-Fi' button, see some internal details about the hosted wireless network by pressing the button 'Details' or see a list with the devices connected to the created Wi-Fi hotspot by accessing the 'Connected
                                 clients' tab.</p>
-                            <img class="img-responsive" src="images/wifi-hotspot-created.png" title="Configuration Tab when a hotspot was created" alt="If a hotspot is running, the Stop and Details button will be activated.">
+                            <img class="img-responsive" src="images/details-activated-virtual-wifi-router-hotspot.png" title="Configuration Tab when a hotspot was created" alt="If a hotspot is running, the Stop and Details button will be activated.">
                             <p>
-                                In the 'Details' window will be shown the maximum number of clients that can be connected simultaneously, the BSSID (the MAC address of the wireless adapter and also of the virtual router), the channel, the password used and other information. To view the
-                                password you can also press the eye icon located near the password field, on the 'Configuration' tab.</p>
+                                In the 'Details' window will be shown the maximum number of clients that can be connected simultaneously, the BSSID (the MAC address of the wireless adapter and also of the virtual router), the channel, the password used and the IPs (default gateways) that will be used by the virtual router - by default, 192.168.137.1 is used for shared Wi-Fi networks, and 192.168.173.1 for ad-hoc Wi-Fi networks.</p>
                             <img class="img-responsive" src="images/wifi-network-details.png" title="Details Window" alt="List with some information about the created WiFi hotspot, hosted by the network card.">
                             <h4>
 						See the devices connected to the hotspot
 						</h4>
                             <p>
                                 By accessing the 'Connected clients' tab you will see all the devices that are connected to the hotspot or are in the process to do so. If the option 'Enable auto-refresh of the connected clients list' is checked in the 'Settings' tab, the devices are
-                                automatically detected, otherwise you must press the refresh button to see the updated list of connected clients.</p>
+                                automatically detected, otherwise you must press the refresh button every time you want to see the updated list of the connected clients.</p>
                             <img class="img-responsive" src="images/connected-devices-to-virtual-wifi-router.png" title="List with connected clients (devices)" alt="'Connected clients' tab will show all the devices that are currently connected to the activated hotspot.">
-                            <p>
-                                When a device is listed with more than one IP address, means that that device was recently connected with a different IP address. The old IP address will disappear after a couple of minutes.
-                            </p>
                             <h4>
-						Virtual WiFi Settings options
+						Change the way Virtual WiFi program is functioning
                             </h4>
                             <p>
-                                In the 'Settings' tab you can select the language of the application, opt to automatically start the application with Windows, keep the hotspot active at the application exit, check for updates at every start-up, activate auto refresh of the clients list
-                                or enable manual assignation of the internal IP address used to host the hotspot (the IP address is usually 192.168.137.1 ). You can also revert to the original settings by pressing the button Reset Wi-Fi settings while
-                                there is no hotspot momentarily running.</p>
-                            <br>
-                            <img class="img-responsive" src="images/virtual-wifi-settings.png" title="Settings tab window" alt="In the 'Settings' tab you can change how the Virtual WiFi Router is shown or it's functioning.">
+                                In the 'Settings' tab you can modify various options regarding either the application itself or the IP configuration.</p>
+                                <p> 
+                                In the 'Application' subtab you can change the following options:</p>
+                                <ul class="content-list">
+                                <li>
+                                <b>Language</b> - let you select the display language of the application (the change will be instant, and won't required a restart of the application);</li>
+
+                                <li><b>Run on Windows Startup</b> - if enabled, the program shall be automatically started with Windows login;</li>
+
+                                <li><b>Start saved Wi-Fi with program</b> - if enabled, the previously configured hotspot shall be automatically activated once the program is running;</li>
+
+                                <li><b>Minimize to Tray at exit if a hotspot is activated</b> - if checked, when the user close the main window of the program and a hotspot is currently running, the apllication wil not exit but shall be minimized to System Tray instead. You can close the program or show the main window again from the System Tray zone of the program.</li>
+
+                                <li><b>Automatically refresh the list with connected clients</b> - if checked, the list with connected devices shall be automatically updated, at a variable refresh rates.</li>
+
+                                <li><b>Automatically check for updates</b> - if checked, the program shall check if a new compatible version of the program is available (the check is made only once per session, when the program is opened or when the option state was changed to checked after it was unchecked).</li>
+
+                                <li><b>Reset Wi-Fi settings</b> - reset the settings and the cache of the hotspots created by the application.</li>
+                                </ul>
+                                <br/>
+                                 <img class="img-responsive" src="images/virtual-wifi-settings.png" title="Settings tab window" alt="In the 'Settings' tab you can change how the Virtual WiFi Router is shown or it's functioning.">
                             <br/>
+
+                                <p>In the 'IP configuration' subtab you can choose the following option:</p>
+                                <ul class="content-list">
+                                <li>
+                               <b>Self assigning IP address for the created WiFi hotspots</b> - if checked, the IP address used by the DHCP service in Windows for Wi-Fi hosted networks is set to the default, which is 192.168.137.1 for hotspots with shared internet connection or 192.168.173.1 otherwise.</li>
+                               </ul>
+                               <br/>
+                               <img class="img-responsive" src="images/settings-ip-configuration.png" title="IP configuration subtab window" alt="Use default IP address for the created virtual hotspots">
+                            <br>
+
                             <p><b>
 						Important notes:
 						</b>
@@ -201,19 +226,14 @@
 
 
                             <p>
-                                Auto assignation of the IP address is disabled as default, the enabling should be done only in case in which the hotspot is successfully created but the devices cannot connect to it - the problem being that Windows cannot assign a valid IP address to the virtual
+                                Self assignation of the IP address is disabled as default, the enabling should be done only in case in which the hotspot is successfully created but the devices cannot connect to it - the problem being that Windows cannot assign a valid IP address to the virtual
                                 hotspot, thereby the resulting connection will be either unavailable or will be without Internet access. If you opt to activate this option, a backup with the initial settings will be created, so the disabling will cause
-                                the restoration of the initial settings.</p>
+                                the restoration of the initial settings. This option is tipically enabled when a previously program such as Virtual WiFi was runned on the computer and it changed the default configuration of the DHCP server. </p>
 
 
                             <p>
-                            If the option 'Enable auto-refresh of connected clients list' is checked, the program will use additionally processor resources - in most of the cases that ain't a problem (it will use below 0.5% of processor).
+                            If the option 'Enable auto-refresh of connected clients list' is checked, the program will use additionally processor resources - in most of the cases, this isn't a problem at all (it will use below 0.5% of processor capacity, on a normal computer).
                             </p>
-
-                            <p>
-                                If the option 'Keep the hotspot active when exit' is enabled, and implicitly is, then, if a hotspot is running and you press the exit button, the application will be terminated but the hotspot will continue to be activated. You can stop the wifi hotspot
-                                by reaccessing the program, case in which the program detects the running hotspot and show the stop button. Also, the shutdown of the computer while the hotspot is running will cause, of course, the disabling of the hotspot,
-                                with no implication for the next start up, unless the option 'Start saved Wi-Fi with program' from 'Configuration' tab and 'Run on Windows Startup' from 'Settings' tab are enabled.</p>
                         </div>
 
                     </article>
@@ -304,7 +324,7 @@
                 </div>
 
                 <div class="col-md-7 col-sm-7 col-xs-12" id="footer-col-copy">
-                    © Adi Barbu's Software Lab 2016. All rights reserved!
+                    © 2016<script>document.write("-"+new Date().getFullYear())</script> Adi Barbu / Software Lab. All rights reserved!
                     <div id="footer-col-copy-links">
                         <a href="../terms-and-conditions.html">Terms and Conditions</a> | <a href="../cookie-policy.html">Cookie Policy</a> | <a href="../privacy-policy.html">Privacy Policy</a>
                     </div>

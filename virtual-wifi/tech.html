@@ -102,7 +102,7 @@
 						
 						<div >
                         <h1 id="app-name">
-                           <a href="index.html">Virtual WiFi 2.9.5</a>
+                           <a href="index.html">Virtual WiFi 3.1.9</a>
                         </h1>
 
                         <h2 id="app-description">Virtual WiFi Router for Windows</h2>
@@ -123,7 +123,7 @@
                         Checked with Bitdefender 
 						<i class="tip glyphicon glyphicon-question-sign">
 						<span><b>The program was checked for malware with Bitdefender and is clean. See a detailed security report using the link below.</b></span></i>
-                        <br/>See <a href="https://www.virustotal.com/ro/file/66792aff51da7023da9a5bd0daaedd216b509681ccd7011bfd45d58c7c99d0c7/analysis/1471457278/" target="_blank">VirusTotal security report</a>.
+                        <br/>See <a href="https://www.virustotal.com/en/file/9c7e1591a61795477e827ff5adba89cc26a4b257eda99c6f83bf83bb1738c474/analysis/1493489910/" target="_blank">VirusTotal security report</a>.
                     </div>
 
                     <div id="app-download" class="col-lg-4 col-md-4 col-sm-4 hidden-xs">
@@ -168,31 +168,31 @@
 
   <tr>
     <th>Status:</th>
-    <th>In progress (new versions are expected to appear in the future)</th>
+    <th>In progress (new versions shall be released in the future)</th>
   </tr>
 
     <tr>
     <td>Latest version:</td>
-    <td>v2.9.5 - installer<br/>
+    <td>v3.1.9 - installer<br/>
 	v2.9.5 - portable</td>
   </tr>
   <tr>
     <td>File name:</td>
-    <td>VirtualWiFi-2.9.5-setup.exe - installer<br/>
+    <td>VirtualWiFiSetup-3.1.9.exe - installer<br/>
 	VirtualWiFi-2.9.5-portable.zip - portable</td>
   </tr>
   <tr>
     <td>File size:</td>
-    <td>2.19 MB (2,305,694 bytes) - installer<br/>
+    <td>2.3 MB (2,435,292 bytes) - installer<br/>
 	2.02 MB (2,127,234 bytes) - portable</td>
   </tr>
     <tr>
-    <td>Supported Operating Systems:</td>
-    <td>Windows XP (SP3 or SP2 with wlan driver installed) / Windows Vista / Windows 7 / Windows 8 / Windows 8.1 / Windows 10 (32 / 64-bit)</td>
+    <td>Supported OS:</td>
+    <td>Windows Vista / Windows 7 / Windows 8 / Windows 8.1 / Windows 10 (32 / 64-bit)</td>
   </tr>
   <tr>
     <td>Hardware requirements:</td>
-    <td>Wireless adapter, ~ 3 MB hard-disk space, ~ 10 MB RAM memory</td>
+    <td>Wireless adapter, ~ 3 MB free hard-disk space, ~ 10 MB free RAM memory</td>
   </tr>
     <tr>
     <td>System requirements:</td>
@@ -200,7 +200,7 @@
   </tr>
   <tr>
     <td>Languages:</td>
-    <td>Multiple languages (English, Romanian, French, Polish, Vietnamese)</td>
+    <td>English, Romanian, French, Polish, Vietnamese</td>
   </tr>
   <tr>
     <td>License:</td>
@@ -208,7 +208,7 @@
   </tr>
   <tr>
     <td>Latest update:</td>
-    <td>July 20, 2016 - installer<br/>
+    <td>April 25, 2017 - installer<br/>
 	August 17, 2016 - portable</td>
   </tr>
   <tr>
@@ -225,11 +225,10 @@
   </tr>
   <tr>
     <td>MD5 Checksum:</td>
-    <td class="no-break-out">acbbfd4e028f398a5b189b70a94cd1e7 - installer v2.9.5<br/>
+    <td class="no-break-out">71294a557097f3fdbc0e46c7eb7145ac - installer v3.1.9<br/>
 	aef729ba852125ca9a24bc2d74c3d651 - portable v2.9.5</td>
   </tr>
 </table>
-
 
 <p><b>Programming details</b></p>				
 		
@@ -240,10 +239,27 @@
   </tr>
   <tr>
     <td>Description:</td>
-    <td>The program uses a series of internal services and commands in Windows to create and manage hotspots. A detailed technical manual will be released sometime in the future.</td>
+    <td>The program uses a series of internal services and commands in Windows to create and manage hotspots, and also to detect connected devices, identified with a device name, IP address and MAC address. A detailed technical manual will be released sometime in the future.</td>
   </tr>
  
 </table>
+
+<p><b>Additional behavioral details</b></p>       
+    
+<table class="table" id="responsiveTable">
+  <tr>
+    <td>The program detects changes about the state of the activated hotspot and the number of connected clients by procesing outputs of Command Prompt commands.<br/>
+    <br/>
+    These commands will be executed silently at the following refresh rates:<br/>
+    - 2 seconds when a hotspot is activated and the tab displayed is 'Connected clients'<br/>
+    - 5 seconds when a hotspot is activated and the selected tab is not 'Connected clients'<br/>
+    - 7 seconds when the application is minimized to System Tray.<br/>
+    <br/>
+    For each refresh you could see flashes (300ms - 1 second) of Command Prompt appearing in the list with running processes (1 or 2 instances) in Task Manager. This behaviour is normal. In the new versions to come this aspect of functionality will be also improved.</td>
+  </tr>
+ 
+</table>
+
 
 						
 						
@@ -335,7 +351,7 @@
                 </div>
 
                 <div class="col-md-7 col-sm-7 col-xs-12" id="footer-col-copy">
-                    © Adi Barbu's Software Lab 2016. All rights reserved!
+                    © 2016<script>document.write("-"+new Date().getFullYear())</script> Adi Barbu / Software Lab. All rights reserved!
                     <div id="footer-col-copy-links">
                         <a href="../terms-and-conditions.html">Terms and Conditions</a> | <a href="../cookie-policy.html">Cookie Policy</a> | <a href="../privacy-policy.html">Privacy Policy</a>
                     </div>
