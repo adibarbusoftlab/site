@@ -801,7 +801,7 @@ text-align:center;
     .featurette-heading-title {
 
     font-weight: 500;
-      font-size: 40px;
+      font-size: 36px;
       line-height: 50px;
     color: #D3C64C;
     /* font-style: italic;*/
@@ -872,16 +872,18 @@ margin-top:15px;
 .whats-new{
 	 max-width:1000px;
 	 margin: auto;
-    font-size: 13px;
     margin-bottom:15px;
+    line-height:1.45;
+    font-family: "Open Sans";
+
 }
 
 .whats-new>h2 {
-    font-size: 21px;
+    font-size: 23px;
     text-transform: uppercase;
 	
-	-webkit-margin-before: 0.83em;
-    -webkit-margin-after: 0.83em;
+	-webkit-margin-before: 0.70em;
+    -webkit-margin-after: 0.70em;
     -webkit-margin-start: 0px;
     -webkit-margin-end: 0px;
 }
@@ -891,6 +893,7 @@ margin-top:10px;
 }
 
 .news-title a {
+  font-size: 20px;
     text-decoration: none;
     color: #0093de;
 }
@@ -899,13 +902,13 @@ margin-top:10px;
 }
 
 .news-title>h3 {
-    font-size: 18px;
+    font-size: 20px;
     font-weight: bold;
     color: #0093de;
 	}
 	
 .news-excerpt {
-    font-size: 16px;
+  font-size: 19px;
 	padding-bottom:15px;
 }
 
@@ -1229,11 +1232,16 @@ letter-spacing:0.5px;
 .center-text{
 text-align:center;
 }
+
 .right-text{
 text-align:right;
 }
 .bold-text{
 font-weight:bold;
+}
+.italic-text
+{
+  font-style: italic;
 }
 .img-center{
 margin:0 auto;
@@ -1242,6 +1250,11 @@ max-width:100%;
 .img-left{
 float:left;
 max-width:300px;
+}
+.img-label
+{
+  margin-top:2px!important;
+  margin-bottom:20px!important;
 }
 .border-up-sm{
     border: 1px solid #d4dadf;
