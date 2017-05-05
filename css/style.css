@@ -136,7 +136,12 @@ body {
   border: 1px solid #d4dadf;
   margin-bottom:20px;
   margin-top:10px!important;
+}
 
+.line-lower{
+  border: 1px solid #d4dadf;
+  margin-bottom:20px;
+  margin-top:20px!important;
 }
 
 hr{
@@ -328,14 +333,14 @@ a.share-list{
   }
 
   .border-up-sm {
-   margin-bottom:10px;
-   margin-left:15px;
-   margin-right:15px;
+   margin-bottom:20px;
+   margin-left:20px;
+   margin-right:20px;
  }
  .border {
-   margin-bottom:10px;
-   margin-left:15px;
-   margin-right:15px;
+   margin-bottom:20px;
+   margin-left:20px;
+   margin-right:20px;
  }
 
  #share-in-page{
@@ -380,7 +385,6 @@ footer {
 
 #footer-col-copy-links {
   margin-top:5px;
-  font-style: italic;
 }
 
 #footer-col-copy-links>*+:before{
@@ -465,14 +469,37 @@ footer {
     background: linear-gradient(top,#3cb758,#03a228);
 }
 
+.button-link-simple{
+
+  text-decoration: none;
+  padding:10px;
+
+  font-weight: bold;
+  border-radius: 3px;
+
+  text-align:center;
+
+      color: #fff!important;
+    background: #3cb758;
+    border: solid 1px #11912f;
+    font-size: 14px;
+    background: -webkit-gradient(linear,0 0,0 100%,from(#3cb758),to(#03a228));
+    background: -webkit-linear-gradient(top,#3cb758,#03a228);
+    background: -moz-linear-gradient(top,#3cb758,#03a228);
+    background: -ms-linear-gradient(top,#3cb758,#03a228);
+    background: -o-linear-gradient(top,#3cb758,#03a228);
+    background: linear-gradient(top,#3cb758,#03a228);
+}
+
 
 .download-button {
   text-decoration: none;
   padding:10px;
-  color: #949eab;
+  color: green!important;
   font-weight: bold;
   text-align:center;
 }
+
 
 a:-webkit-any-link {
   color: -webkit-link;
@@ -1084,12 +1111,14 @@ padding-right:5px !important;
 
     }/* END Tablet */
 
-    @media screen and (max-width: 500px) /* Mobile */ {
+  @media screen and (max-width: 780px) /* Mobile */ {
 
       #share-social{
-        font-size: 23px;
+        /* font-size: 23px;*/
+        display:none;
       }
-
+    }
+    @media screen and (max-width: 500px) /* Mobile */ {
 
 
       .container-carousel
@@ -1309,13 +1338,19 @@ padding-right:5px !important;
     margin-bottom:20px!important;
   }
   .border-up-sm{
+    /*
     border: 1px solid #d4dadf;
+    */
     margin-bottom:10px;
+    
   }
   .border{
+    /*
     border: 1px solid #d4dadf;
+    */
     margin-bottom:10px;
     padding:15px;
+    
   }
 
   .donate-text-border-left{
@@ -1398,6 +1433,12 @@ padding-right:5px !important;
 .center{
   margin:0 auto;
 }
+
+.center-item{
+float:none;
+margin:0 auto;
+}
+
 .contact-form-text
 {
   font-size:17px;
@@ -1875,4 +1916,9 @@ padding-right:5px !important;
 #countdown
 {
   color:red;
+}
+
+.link-buttons
+{
+  margin:25px 0;
 }
