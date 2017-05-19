@@ -374,7 +374,7 @@ footer {
 
 }
 #footer-col-links {
-  margin-top:18px;
+  margin-top:17px;
   font-size: 16px;
 }
 
@@ -389,13 +389,13 @@ footer {
 
 #footer-col-copy-links>*+:before{
     content: "|";
-    margin: 0 25px;
+    margin: 0 20px;
 }
 
 
 #footer-col-copy {
   text-align: right;
-  font-size: 15px;
+  font-size: 13px;
   margin-top:10px;
   color:#333!important;
     
@@ -905,9 +905,9 @@ padding-right:5px !important;
 
 .featurette-heading-content{
 
- font-family: Open Sans;
+ font-family: "Open Sans";
  color: #444444;
- font-size: 20px;
+ font-size: 17px;
  line-height: 24px;
 }
 
@@ -987,7 +987,7 @@ padding-right:5px !important;
 }
 
 .news-excerpt {
-  font-size: 19px;
+  font-size: 17px;
   padding-bottom:15px;
 }
 
