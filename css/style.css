@@ -72,7 +72,7 @@ body {
 .content p {
  margin-bottom: 10px;
  margin-top: 10px;
- line-height: 1.52;
+ line-height: 1.43;
 }
 
 
@@ -312,7 +312,7 @@ a.share-list{
 {
   list-style-type: disc;
   padding-left:50px;
-  line-height:1.35;
+  line-height:1.43;
 }
 .products-list-content{
   padding: 10px;
