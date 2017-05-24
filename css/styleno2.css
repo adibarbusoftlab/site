@@ -531,7 +531,7 @@ a:active {
    margin: 0 20px;
 }
 
-@media all and (max-width: 7250px) {
+@media all and (max-width: 725px) {
 
 	.separator-header:after
 {
