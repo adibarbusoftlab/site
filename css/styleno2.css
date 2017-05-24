@@ -525,15 +525,15 @@ a:active {
 
 
 /* separator - used to create a division between the the social bar and the aux-menu on responsive*/
-.separator:after
+.separator-header:after
 {
  content: "|";
    margin: 0 20px;
 }
 
-@media all and (max-width: 700px) {
+@media all and (max-width: 7250px) {
 
-	.separator:after
+	.separator-header:after
 {
  content: '\A';
    margin: 0 20px;
