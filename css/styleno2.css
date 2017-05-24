@@ -604,7 +604,7 @@ margin-left:0!important;
 }
 
 .main-navigation .menu-list {
-	display: block;
+	display: none;
 	color: #000;
 	text-decoration: none;
 	padding: 0.88em 1em;
@@ -707,8 +707,8 @@ margin-left:0!important;
 		position: relative;
 		top: 0;
 		border-bottom: 0px;
-		padding-left: 5%;
-		background: #36c1c8;
+
+		background: #F5F5F5;
 		width: 100%;
 		opacity: 1;
 		visibility: visible
@@ -716,6 +716,7 @@ margin-left:0!important;
 	.main-navigation.toggled ul ul a {
 		font-size: 100%;
 		width: 100%
+		color: #000;
 	}
 	.menu-toggle i {
 		float: right
@@ -728,11 +729,11 @@ margin-left:0!important;
 	}
 	.main-navigation a {
 		padding: .5em;
-		color: #ffffff;
+		color: #000;
 		border-bottom: 1px solid rgba(0, 0, 0, .05)
 	}
 	.main-navigation a:hover {
-		color: #ffffff
+		color: #000;
 	}
 }
 /* END NAVIGATION HEADER */
