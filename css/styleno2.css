@@ -1219,12 +1219,13 @@ h2.site-descriptionnbt {
 {
 margin: 10px 0;
 color: #999;
-
+padding-bottom: 15px;
+border-bottom: 1px solid #e1e1e1;
 }
 
 .entry-meta i {
 	color: #7aaaaa;
-	margin-right: 2px
+	margin-right: 2px;
 }
 .entry-meta>i+:not(:last-child):after {
     content: "\B7";
