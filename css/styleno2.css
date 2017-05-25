@@ -1990,3 +1990,7 @@ clear: both;
 .scrollingBox {
 max-width:380px;
 }
+.pre-code-simple
+{
+background-color: #f8f8f8; border: 1px dashed rgb(221, 221, 221); margin-bottom: 8px; margin-top: 20px; overflow: auto; padding: 1.5em;
+}
