@@ -390,7 +390,7 @@ footer {
 
 #footer-col-copy-links>*+:before{
     content: "|";
-    margin: 0 20px;
+    margin: 0 10px;
 }
 
 
