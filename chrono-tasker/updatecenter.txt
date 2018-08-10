@@ -1,2 +1,2 @@
 # AppNameVersion --> updateCode--> Latest version code --> source -->
-# CROTSKR_APP-->1-->1.0-->http://softlab.adibarbu.ro/cronotasker/-->
+# CROTSKR_APP-->1-->1.0-->http://softlab.adibarbu.ro/chrono-tasker/-->
