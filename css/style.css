@@ -302,7 +302,7 @@ font-size: 15px;
 }
 
 .tab-content-page{
- margin-top:25px;
+ margin-top:10px;
 }
 
 .tab-content> p {
@@ -627,16 +627,16 @@ a:-webkit-any-link {
   margin-top:10px!important;
   margin-bottom:10px!important;
   height:100%;
-  background:#f2fbd8;
+  background:#f2fbff;
   text-align:center;
   border: 1px solid #d4dadf;
 }
 #share-in-page{
   padding:15px;
-  margin-top:10px!important;
+  margin-top:20px!important;
   margin-bottom:10px!important;
   height:100%;
-  background:#f2fbd8;
+  background:#f2fbff;
   text-align:center;
   border: 1px solid #d4dadf;
 }
@@ -1088,7 +1088,7 @@ padding-right:5px !important;
 @media screen and (min-width: 980px) /* Desktop */ {
 
   #share-social {
-    font-size: 28px;
+    font-size: 25px;
   }
 
   }/* END Desktop */
@@ -1204,12 +1204,11 @@ padding-right:5px !important;
 
   .img-caption{
     width:100%;
-    margin-bottom:20px;
+    margin: 15px 0;
   }
 
   .img-src{
     width:100%;
-    margin-bottom:20px;
   }
   .img-desc{
     text-align:center;
@@ -1310,6 +1309,8 @@ padding-right:5px !important;
   }
   .tags{
     letter-spacing:0.0px;
+    margin: 15px 3px 5px;
+
   }
   .center-text{
     text-align:center;
