@@ -1634,6 +1634,12 @@ margin:0 auto;
   color: white;
 }
 
+.carousel-inner a
+{
+  color:#fff;
+}
+
+
 .text-overlay-header {
   position: relative;
   font-size: 22px!important;
